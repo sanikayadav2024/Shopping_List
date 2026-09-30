@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Meesho Wishlist</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">My<span>Wishlist</span></div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#wishlist">Wishlist</a>
+        </nav>
+
+        <div class="cart">
+            ❤️ <span id="wishlistCount">0</span>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <h1>My Meesho Wishlist 🛍️</h1>
+
+            <p>
+                A collection of products I want to buy from Meesho.
+            </p>
+
+            <a href="#products" class="shop-btn">
+                Explore Products
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Search -->
+    <section class="search-section">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search for a product..."
+        >
+
+        <select id="categoryFilter">
+
+            <option value="all">All Categories</option>
+
+            <option value="fashion">Fashion</option>
+
+            <option value="beauty">Beauty</option>
+
+            <option value="home">Home</option>
+
+            <option value="accessories">Accessories</option>
+
+        </select>
+
+    </section>
+
+
+    <!-- Products -->
+    <section class="products-section" id="products">
+
+        <h2>My Products</h2>
+
+        <div class="product-container" id="productContainer">
+
+            <!-- Products will be added using JavaScript -->
+
+        </div>
+
+    </section>
+
+
+    <!-- Empty Wishlist Message -->
+    <section id="wishlist" class="wishlist-section">
+
+        <h2>My Wishlist ❤️</h2>
+
+        <p id="wishlistMessage">
+            Add products to your wishlist.
+        </p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 My Wishlist | Personal Shopping Collection
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
